@@ -1,0 +1,31 @@
+        /* Universal Selector */
+*{
+    margin: 0;
+    padding: 0;
+}
+        /* Element Selector */
+/* h1{
+    color: #808081;
+
+}
+p{
+    color:red;
+} */
+    /* Class Selectors */
+.pra{
+    background-color: rgb(58, 161, 98);
+    color: white;
+
+}
+.hello{
+    font-size: 55px;
+}
+    /* Id Selector */
+#id1{
+    color: greenyellow;
+
+}
+        /* Selector List */
+/* .class1 , .class2 , .class7 {
+    
+} */

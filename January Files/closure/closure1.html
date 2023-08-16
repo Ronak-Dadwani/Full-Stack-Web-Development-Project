@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Closure</title>
+</head>
+<style>
+    
+    body {
+        background-color: #414141;
+
+    }
+</style>
+<body>
+    <h1>Closure For Interview</h1>
+    <button id="Orange">orange</button>
+    <button id="Green">Green</button>
+</body>
+<script>
+    // document.getElementById('orange').onclick = function () {
+    //     document.body.style.backgroundColor = 'orange'
+    // }
+    // document.getElementById('Green').onclick = function () {
+    //     document.body.style.backgroundColor = 'green'
+    // }
+
+    function clickhandler(color) {
+        document.body.style.backgroundColor = 'red'
+    }
+
+    document.getElementById('orange').onclick = clickhandler('')
+
+</script>
+</html>

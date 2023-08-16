@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Psedo Classes</title>
+    <style>
+      /* .hover:hover {
+            background-color: black;
+            color: pink;
+        }
+        input:focus {
+            color: red;
+            background-color: black;
+            font-size: 25px;
+        } */
+
+      /* a:hover {
+        color: deeppink;
+      }
+
+      a:active {
+        color: brown;
+      }
+
+      a:visited {
+        color: black;
+      }
+
+      a:nth-child(even) {
+        background-color: yellow;
+      } */
+      p {
+        font-size: 25px;
+      }
+      p::first-letter {
+        color: pink;
+      }
+      p::first-line {
+        color: green;
+      }
+      p::after {
+        content: "-Ronak";
+        color: aqua;
+      }
+
+      p::before {
+        content: "-Ronak";
+        color: blueviolet;
+      }
+      p::selection {
+        background-color: black;
+        color: yellow;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Pseudo classes -->
+
+    <p class="hover">Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+
+    <input type="text" />
+    <nav>
+
+      <a href="https://www.google.com/">Google</a>
+      <a href="https://www.google.com/">Google</a>
+      <a href="https://www.google.com/">Google</a>
+    </nav>
+
+    <!-- Pseudo Elements -->
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, repudiandae consequatur. Blanditiis pariatur sed, quidem odit beatae ab velit provident perspiciatis veritatis ratione dicta autem illum necessitatibus, incidunt laboriosam dignissimos,iste ad dolores explicabo aspernatur debitis adipisci nostrum ut eveniet. Tenetur, temporibus assumenda illum odio dolorum quam magnam quas aliquid.</p>
+
+
+      
+
+  </body>
+</html>

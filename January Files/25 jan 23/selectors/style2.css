@@ -1,0 +1,25 @@
+body{
+    background-color: aqua;
+    /* Descendent Selector */
+}
+/* main p {
+    color:red
+} */
+h1  > p {
+    color:blue;
+}
+
+/* section + p{
+    color: yellow;
+} */
+section ~ p{
+    color: yellow;
+}
+
+[target="_blank"]{
+    color: pink;
+    text-decoration: none;
+}
+[alt~="PW"]{
+    background-color: black;
+}

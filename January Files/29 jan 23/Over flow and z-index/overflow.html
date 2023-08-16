@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Over Flow and Z-index</title>
+    <style>
+        p {
+            height: 250px;
+            width: 250px;
+            border: 2px solid black;
+            overflow: auto;
+        }
+
+        .one {
+            height: 50px;
+            width: 50px;
+            background-color: red;
+            position: absolute;
+            top: 0;
+            z-index: -1;
+        }
+
+        .two {
+            height: 50px;
+            width: 50px;
+            background-color: yellow;
+            position: absolute;
+            top: 0px;
+            /* z-index: -3; */
+        }
+
+    </style>
+</head>
+<body>
+        <!-- Overflow -->
+        <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis reprehenderit tempora doloremque enim harum! Cumque, totam tempore saepe, inventore voluptates voluptatem a officia dignissimos non ipsa ab esse odio recusandae magnam, sunt quidem impedit maxime perspiciatis labore. Quasi repellendus, magni suscipit sed id incidunt. Alias laborum laudantium facere esse, rem rerum quae consectetur delectus? Alias qui nesciunt quisquam voluptate eveniet temporibus molestiae voluptas maiores cupiditate adipisci? Dignissimos velit perferendis quisquam commodi dolor beatae, hic exercitationem quos nobis impedit sunt, quaerat voluptatem! Ea ipsam itaque dolores hic aut, repellat voluptate maxime. Alias atque sed ut rerum asperiores quas culpa enim cum porro! Quod veritatis omnis magnam recusandae eligendi in atque impedit, sed voluptates laudantium sunt, deleniti animi perspiciatis pariatur? Quos, blanditiis odio facere nemo velit ullam cumque deserunt, et quia fugit repellendus aliquid maiores officiis animi quisquam! Deserunt fugit aut reiciendis veritatis porro vel esse sunt asperiores quasi illo vitae, veniam ex pore corporis, ipsum nulla voluptatem id omnis voluptas accusantium quidem voluptate incidunt maxime in inventore!
+        </p>
+
+            <!-- Z - index -->
+            <div class="one"></div>
+            <div class="two"></div>
+</body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title>User registration form</title>
+</head>
+
+<body>
+    <form method="get" target="_blank" action="/signup">
+        <fieldset>
+            <legend>User Registration!!</legend>    
+
+            <label for="username">Enter Your Username</label>
+            <input type="text" name="username" id="username" value="john" readonly disabled>
+            <br>
+            <label for="useremail">Enter Your Email</label>
+            <input type="email" name="useremail" id="useremail" placeholder="abc@gmail.com">
+            <br>
+            <label for="userpassword">Enter Your Password</label>
+            <input type="password" name="userpassword" id="userpassword">
+            <br>
+            Gender <br>
+            <label for="male"> Male</label>
+            <input type="radio" name="gender" id="male" value="male">
+            <br>
+            <label for="female">Female</label>
+            <input type="radio" name="gender" id="female" value="female">
+            <br>
+            <label for="transgender">Transgender</label>
+            <input type="radio" name="gender" id="transgender" value="transgender">
+            <br>
+            <input type="number" min="0" max="7">
+            <input type="submit" value="Submit form">
+        </fieldset>
+    </form>
+
+
+</body>
+
+</html>
