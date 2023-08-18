@@ -1,0 +1,119 @@
+/* MAKING CSS DEFAULT
+ */
+ *{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+ }
+
+ body {
+    max-width: 1440px;
+    background-color: #f0f4f5;
+    overflow: hidden;
+    margin: auto;
+ }
+
+ /* designing the navigation menu */
+
+ nav {
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 5%;
+ }
+
+ /* designing the  logo*/
+
+ nav img {
+    width: 150px;
+    margin: auto;
+    margin-left: 96px;
+ }
+
+ /* designing the navigaion menu links */
+
+ nav  ul {
+    display: flex;
+    align-items: center;
+ }
+
+ nav ul li {
+    list-style: none;
+    margin-right: 50px;
+    font-weight: 600;
+    font-size: 20px;
+ }
+
+ nav ul li:first-child {
+    font-weight: 700;
+    color: #20bc7e;
+ }
+
+ a {
+    text-decoration: none;
+    color: black;
+ }
+
+ /* designing the main section */
+
+ main {
+    height: 85vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding:  0 5%;
+ }
+
+ .hospitaldescription{
+
+    width: 50%;
+    text-align: center;
+
+ }
+
+ .hospitaldescription h1 {
+    margin-bottom: 20px;
+    color: #20bc7e;
+ }
+
+ .hospitaldescription p {
+    font-size: 15px;
+    font-weight: 600;
+ }
+
+ /* designing the achievementt card */
+
+ .achievement {
+    display: flex;
+    align-items: center;
+    gap: 50px ;
+    margin-top: 50px;
+ }
+
+ .achievementcard {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 200px;
+    height: 100px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px black;
+  
+ }
+
+ .achievementcard p {
+    font-size: 20px;
+    font-weight: 500;
+ }
+
+ .achievementcard span {
+    font-size: 25px;
+    font-weight: 700;
+    color: #20bc7e;
+ }
