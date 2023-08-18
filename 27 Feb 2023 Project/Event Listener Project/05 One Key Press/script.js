@@ -1,0 +1,10 @@
+//keypress
+
+let inputbox = document.getElementById('input-box')
+let display = document.getElementById('display')
+
+//adding a keypress event listener to the element
+
+inputbox.addEventListener('keypress' , function(e) {
+    display.innerText= "you have Pressed " + e.key
+})
