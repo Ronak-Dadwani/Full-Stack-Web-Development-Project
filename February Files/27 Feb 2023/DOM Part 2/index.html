@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JAVA SCRIPT -DOM Part 2</title>
+</head>
+<body>
+
+    <ul>
+        <li>One</li>
+        <li>Two</li>
+        <li>Three</li>
+    </ul>
+    <script>
+        let title = document.createElement("h1")
+        title.className = "pwskills";
+        title.style.fontsize = "25px";
+        title.textContent = "Pw skills , namaste";
+        console.log(title);
+        document.body.appendChild(title);
+        //remove child
+
+        let ul = document.querySelector("ul");
+        console.log(ul);
+
+        let lists = document.querySelectorAll("li");
+        console.log(lists);
+
+        for(list of lists);
+        ul.removeChild(list);
+    </script>
+    
+</body>
+</html>
