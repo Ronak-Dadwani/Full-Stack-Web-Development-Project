@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+</head>
+<body style="background-color: black; color: aliceblue;">
+
+    <h1>Javascript Quiz App</h1>
+    <div id="quiz"></div>
+
+    <button id="submit">Submit</button>
+
+    <div id="results"></div>
+
+    <script>
+        const quizcontainer = document.getElementById('quiz')
+        const submitbButton = document.getElementById('submit')
+        const results = document.getElementById('results')
+
+        const myQuestion = [{
+
+            question: "What is the capital of france ?",
+            answers: {
+                a: "Paris",
+                b: "London",
+                c: "New York"
+            },
+            correctanswer: "a"
+        }
+        ]
+    </script>
+</body>
+</html>
